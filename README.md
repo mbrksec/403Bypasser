@@ -22,12 +22,12 @@ cd 403Bypasser
 
 # Bağımlılıkları başlatın ve derleyin
 go mod init 403bypasser
+
 go build main.go
 
 📖 Kullanım
 Aracı çalıştırmak için hedef URL'yi parametre olarak vermeniz yeterlidir:
 
-Bash
 go run main.go https://example.com/admin
 
 ⚖️ Yasal Uyarı
